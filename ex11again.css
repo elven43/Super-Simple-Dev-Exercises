@@ -1,0 +1,141 @@
+/*general*/
+
+*,*::before, *::after{
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  font-family: Times New Roman;
+  background-color: antiquewhite;
+  border: solid 1px;
+  border-radius: 10px;
+  margin: 40px 0 50px 0;
+}
+
+
+body{
+  background-color: antiquewhite;
+}
+
+button{
+  padding: 4px 6px 4px 6px;
+  color: white;
+  background-color: dodgerblue;
+  
+  border: none;
+  border-radius: 2px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 10px;
+  margin: 5px 0 0 4px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+p {
+  margin: 0;
+}
+
+.anny3, .anny1, .anny2 {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  
+}
+
+/*classes*/
+
+.ex11a{
+  display: grid;
+  grid-template-columns: 200px 75px;
+  margin-bottom: 15px;
+  border: solid 1px;
+  width: fit-content;
+}
+
+.ex11b{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+  margin-bottom: 15px;
+  border: solid 1px;
+}
+
+.ex11c{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+  margin-bottom: 15px;
+  border: solid 1px;
+}
+
+.ex11d{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  column-gap: 10px;
+  
+  
+  
+}
+
+.commoncontainer{
+  display: inline-block;
+  width: fit-content;
+  background-color: white;
+  padding: 8px 10px 0 8px;
+  height: 210px;
+  border-radius: 3px;
+  box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+}
+
+.userinfo{
+  height: 66px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  background-color: white;
+  font-family: Arial;
+  border-radius: 2px;
+}
+
+
+.username{
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 3px 1px 4px 4px;
+  
+}
+
+.mutualsinfo {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  width: 100%;
+  align-items: center;
+  padding: 0 0 0 4px;
+}
+
+.pfp{
+  width: 17px;
+  height: 17px;
+  border-radius: 50%; 
+  vertical-align: middle;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+}
+
+.mutualsrecs{
+  font-size: 10px;
+  padding-left: 1px;
+  color: dimgrey;
+  
+}
+
+.pink{
+  background-color: lightpink;
+}
+
+.blue{
+  background-color: lightblue;
+}
